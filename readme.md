@@ -6,7 +6,7 @@ Esta aplicação é inspirada na em uma aula da Digital Innovation One (DIO), mi
 
 Para desenvolvimento foi usado JavaScript, React. Para criação de componentes foi usado o framework Material-UI e para estilização foi usado a biblioteca Styled-components.
 
-![COVID-19 Monitor](https://imgur.com/a/jTRiORU)
+![COVID-19 Monitor](https://i.imgur.com/nYG4KyJ.png)
 
 #### Passos para rodar a aplicação (considerando que o Node Package Manager já esteja instalado em sua máquina):
 - Baixe esta pasta do github e copie para algum lugar na sua máquina;
