@@ -6,10 +6,12 @@ Esta aplicação é inspirada na em uma aula da Digital Innovation One (DIO), mi
 
 Para desenvolvimento foi usado JavaScript, React. Para criação de componentes foi usado o framework Material-UI e para estilização foi usado a biblioteca Styled-components.
 
-Passos para rodar a aplicação (considerando que o Node Package Manager já esteja instalado em sua máquina):
+![COVID-19 Monitor](https://imgur.com/a/jTRiORU)
+
+#### Passos para rodar a aplicação (considerando que o Node Package Manager já esteja instalado em sua máquina):
 - Baixe esta pasta do github e copie para algum lugar na sua máquina;
 - Abra o terminal nesta pasta que você baixou;
 - Execute o comando "npm install" para baixar e instalar as dependências do projeto;
 - Execute o comando "npm start" para rodar a aplicação em sua máquina local;
 - Automaticamente, seu navegador exibirá a aplicação;
-- Você também pode abrir pelo navegador do seu celular, digitando "seu ip:3000".
+- Você também pode abrir pelo navegador do seu celular (que deve estar na mesma rede do seu computador), digitando "seu ip:3000".
