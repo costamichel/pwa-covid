@@ -1,5 +1,4 @@
 import React, { memo } from 'react';
-import RefreshIcon from '../../../assets/images/refresh.svg';
 import { Card, Typography, Button, Select, MenuItem } from '../../../components';
 import COUNTRIES from '../../../commons/constants/countries';
 import { CardPanelContentStyled, ItemStyled } from './style';
@@ -18,11 +17,12 @@ function Panel ({ updatedAt, onChange, data, country, getCovidData }) {
         </MenuItem>
     )
 
-    const textCovid19 = `País: ${country} - recuperados: ${recovered}`;
+    const textCovid19 = `País: ${country} - recuperados: ${recovered} - casos ativos: ${cases} - mortes: ${deaths} - 
+    mortes hoje: ${todayDeaths} - casos hoje: ${todayCases}`;
 
     const shareInfo = () => {
         navigator.share({
-            title: `Dados do COVID-19 - ${country}`,
+            title: `Dados do COVID-19 - ${textCovid19}`,
             text: textCovid19,
             url: 'http://localhost:3000'
         });
