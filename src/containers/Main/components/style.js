@@ -26,3 +26,9 @@ export const ItemStyled = styled.div`
   justify-content: space-between;
   min-width: 150px;
 `
+
+export const FooterStyled = styled.footer`
+  align-content: flex-end;
+  text-align: center;
+  margin-top: 60px;
+`

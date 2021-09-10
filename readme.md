@@ -6,7 +6,14 @@ Esta aplicação é inspirada na em uma aula da Digital Innovation One (DIO), mi
 
 Para desenvolvimento foi usado JavaScript, React. Para criação de componentes foi usado o framework Material-UI e para estilização foi usado a biblioteca Styled-components.
 
-![COVID-19 Monitor](https://i.imgur.com/nYG4KyJ.png)
+Para além do projeto proposto, foram feitos este ajustes:
+- Correção de exibição quando algum valor era 0
+- Alteração do título na janela
+- Adicionado rodapé
+
+![COVID-19 Monitor](https://i.imgur.com/S9XfYc5.png)
+
+Disponível em: https://pwa-covid.netlify.app/
 
 #### Passos para rodar a aplicação (considerando que o Node Package Manager já esteja instalado em sua máquina):
 - Baixe esta pasta do github e copie para algum lugar na sua máquina;

@@ -6,6 +6,7 @@ import Api from "../../api";
 import { ContainerStyled } from "./style";
 import Board from "./components/Board";
 import Panel from "./components/Panel";
+import { FooterStyled } from "./components/style";
 
 function Main () {
 
@@ -39,6 +40,11 @@ function Main () {
                 />
             </div>
             <Board data={data} />
+            <FooterStyled>
+                Developed by Michel Costa -
+                <a href="https://github.com/costamichel/pwa-covid" target="_blank
+                    ">See on Github</a>
+            </FooterStyled>
         </ContainerStyled>
     )
 }
