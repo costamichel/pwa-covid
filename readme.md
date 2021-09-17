@@ -10,6 +10,7 @@ Para além do projeto proposto, foram feitos este ajustes:
 - Correção de exibição quando algum valor era 0
 - Alteração do título na janela
 - Adicionado rodapé
+- Adicionado Portugal e Argentina no menu
 
 ![COVID-19 Monitor](https://i.imgur.com/S9XfYc5.png)
 

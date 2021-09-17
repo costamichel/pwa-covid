@@ -17,14 +17,13 @@ function Panel ({ updatedAt, onChange, data, country, getCovidData }) {
         </MenuItem>
     )
 
-    const textCovid19 = `País: ${country} - recuperados: ${recovered} - casos ativos: ${cases} - mortes: ${deaths} - 
-    mortes hoje: ${todayDeaths} - casos hoje: ${todayCases}`;
+    const textCovid19 = `País: ${country}\nRecuperados: ${recovered}\nCasos ativos: ${cases}\nMortes: ${deaths}\nMortes hoje: ${todayDeaths}\nCasos hoje: ${todayCases}`;
 
     const shareInfo = () => {
         navigator.share({
             title: `Dados do COVID-19 - ${textCovid19}`,
             text: textCovid19,
-            url: 'http://localhost:3000'
+            url: 'https://pwa-covid.netlify.app/'
         });
     }
 
