@@ -2,7 +2,7 @@
 
 Este projeto implementa uma Progressive Web Application (PWA) que mapeia os dados referentes ao COVID-19 em alguns países e os exibe: número total de casos, número de casos ativos, número de mortes, número de casos no dia atual, número de mortes no dia atual e número de recuperados.
 
-Esta aplicação é inspirada na em uma aula da Digital Innovation One (DIO), ministrada pelo instrutor Bruno Carneiro (a quem agradeço os ensinamentos), nomeada de "Desenvolvendo uma Progressive Web Application com React para mapear os dados do COVID19 pelo mundo". 
+Esta aplicação é inspirada em uma aula da Digital Innovation One (DIO), ministrada pelo instrutor Bruno Carneiro (a quem agradeço os ensinamentos), nomeada de "Desenvolvendo uma Progressive Web Application com React para mapear os dados do COVID19 pelo mundo". 
 
 Para desenvolvimento foi usado JavaScript, React. Para criação de componentes foi usado o framework Material-UI e para estilização foi usado a biblioteca Styled-components.
 
@@ -11,6 +11,7 @@ Para além do projeto proposto, foram feitos este ajustes:
 - Alteração do título na janela
 - Adicionado rodapé
 - Adicionado Portugal e Argentina no menu
+- Correção no registro do service worker
 
 ![COVID-19 Monitor](https://i.imgur.com/S9XfYc5.png)
 
